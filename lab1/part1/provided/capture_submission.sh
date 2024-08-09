@@ -93,10 +93,15 @@ pid4=$!
 
 
 # copy ./provided/onepkt.py to each of lab-host1, lab-host2, etc...
-cp ./provided/onepkt.py ./lab-host1
-cp ./provided/onepkt.py ./lab-host2
-cp ./provided/onepkt.py ./lab-host3
-cp ./provided/onepkt.py ./lab-host4
+cp -a ./provided/onepkt.py ./lab-host1
+cp -a ./provided/onepkt.py ./lab-host2
+cp -a ./provided/onepkt.py ./lab-host3
+cp -a ./provided/onepkt.py ./lab-host4
+
+chmod +x ./lab-host1/onepkt.py
+chmod +x ./lab-host2/onepkt.py
+chmod +x ./lab-host3/onepkt.py
+chmod +x ./lab-host4/onepkt.py
 
 
 # Packet tests

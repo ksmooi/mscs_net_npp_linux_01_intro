@@ -33,6 +33,3 @@ topology:
     - endpoints: ["host2:eth1", "switch:eth2"]
     - endpoints: ["host3:eth1", "switch:eth3"]
     - endpoints: ["host4:eth1", "switch:eth4"]
-
-      
-
