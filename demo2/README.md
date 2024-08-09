@@ -8,7 +8,7 @@ We are using the same containerlab yaml file from demo1 (see that README for des
 
 ```
 cd mscs_net_npp_linux_01_intro/demo2
-mkdir lab-host1 lab-host2 lab-host3 lab-host4 lab-switch
+mkdir -p lab-host1 lab-host2 lab-host3 lab-host4 lab-switch
 
 sudo containerlab deploy
 ```

@@ -16,7 +16,7 @@ To deploy, run the following command.  This will launch containers and wire them
 
 ```
 cd mscs_net_npp_linux_01_intro/demo1
-mkdir lab-host1 lab-host2 lab-host3 lab-host4 lab-switch
+mkdir -p lab-host1 lab-host2 lab-host3 lab-host4 lab-switch
 
 sudo containerlab deploy
 ```
